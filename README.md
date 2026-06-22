@@ -46,7 +46,7 @@ the "smart" touches usually reserved for paid templates.
 
 ---
 
-## 🚀 Install in 60 seconds
+## 🚀 Option A — Quick install via import (60 seconds)
 
 1. **Download** the package: [`dist/Ultimate-Writer-Planner.zip`](dist/Ultimate-Writer-Planner.zip)
    (or build it yourself — see below).
@@ -60,6 +60,37 @@ the "smart" touches usually reserved for paid templates.
 > filters, boards, and rollups.
 
 ---
+
+## 🤖 Option B — Fully-loaded install via the Notion API (recommended)
+
+The import above brings columns in as plain text. If you want the **complete**
+workspace — typed properties, live cross-database **relations**, the **formulas**
+(words remaining, % complete, auto daily word goal), and all seed rows
+**pre-linked** — use the auto-installer. It builds everything directly in a
+Notion account.
+
+```bash
+# 1. Create an integration at https://www.notion.so/my-integrations and copy the secret.
+# 2. Create/pick a Notion page, and via "..." -> Connections, add your integration.
+# 3. Run:
+export NOTION_TOKEN="ntn_your_secret_here"
+python3 scripts/notion_install.py --parent "https://www.notion.so/your-page-url"
+
+# Preview first without touching Notion:
+python3 scripts/notion_install.py --dry-run
+```
+
+No third-party packages — standard library only. Full step-by-step is in the
+header of [`scripts/notion_install.py`](scripts/notion_install.py).
+
+> 🔒 **This repo is public.** Your integration token is a password. Never paste
+> it into a commit, an issue, or any file in this repo. Pass it via the
+> `NOTION_TOKEN` environment variable (already covered by `.gitignore`) and
+> run the script on your own machine.
+
+The only things the Notion API cannot create are **views** (board/calendar/chart)
+and **database templates** — the installer prints the 1-minute manual steps for
+those when it finishes, and they're detailed in the **❓ How to Use** page.
 
 ## 🛠️ Build the zip yourself
 

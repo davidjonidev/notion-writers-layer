@@ -1,0 +1,10 @@
+# Never commit secrets — this repo is public.
+.env
+.env.*
+*.token
+*.secret
+secrets.*
+notion_token*
+.DS_Store
+__pycache__/
+*.pyc
