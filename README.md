@@ -15,7 +15,9 @@ query agents, and run your publishing pipeline — all in one Notion space.
 | --- | --- | --- |
 | 📊 Writing Dashboard | Page | Daily command center |
 | 📚 Book Projects | Database | One row per manuscript, with status & word goals |
+| 📕 Series & Saga | Database | Multi-book series, reading order & overarching arcs |
 | 📖 Chapters & Scenes | Database | Outline and draft scene by scene |
+| 🧵 Plot & Beats | Database | A fillable beat board (3-act / Save the Cat! mapped) |
 | 👤 Characters | Database | Profiles, arcs, wants/needs, relationships |
 | 🌍 World Building | Database | Places, factions, lore, magic/tech rules |
 | 🔬 Research & Notes | Database | Sources, facts, reference material |
@@ -23,14 +25,24 @@ query agents, and run your publishing pipeline — all in one Notion space.
 | 📈 Word Count Log | Database | Per-session word counts & streaks |
 | 🎯 Writing Goals | Database | Quarterly and project targets |
 | 📅 Writing Schedule | Database | When and what you'll write |
+| 🔁 Revision & Editing Log | Database | Track every editing pass (dev/line/copy/proof) |
+| 📊 Comp Titles & Market | Database | Comparable books to power your pitch/query |
+| 📇 Contacts & Network | Database | Agents, editors, beta readers, designers |
 | 📮 Submission Tracker | Database | Queries, agents, contests, publishers |
 | ✅ Publishing Checklist | Database | From final draft to launch day |
 | 📐 Story Structure Guide | Page | Three-Act, Save the Cat!, Hero's Journey, 7-point |
 | ✍️ Daily Writing Ritual | Page | Beat the blank page |
-| ❓ How to Use This Template | Page | Setup + power-ups |
+| ❓ How to Use This Template | Page | Setup, smart formulas, charts & power-ups |
 
 Every database ships with **realistic example rows** so nothing looks empty —
 delete them once you've seen how it works.
+
+### Beyond a static export
+
+The **❓ How to Use** page includes copy-paste **formulas** (words remaining,
+% complete progress bars, and an auto-calculated *daily word goal* based on your
+deadline), plus how to add **chart views** and **one-click database templates** —
+the "smart" touches usually reserved for paid templates.
 
 ---
 

@@ -20,7 +20,9 @@ Everything below imports as a sub-page. Click in to explore.
 ### Plan
 - **📊 Writing Dashboard** — daily command center
 - **📚 Book Projects** — every manuscript, status, and word goal
+- **📕 Series & Saga** — manage multi-book series and arcs
 - **📖 Chapters & Scenes** — outline and draft scene by scene
+- **🧵 Plot & Beats** — a fillable beat board for your story
 - **🎯 Writing Goals** — quarterly and project targets
 - **📅 Writing Schedule** — when and what you'll write
 
@@ -32,6 +34,9 @@ Everything below imports as a sub-page. Click in to explore.
 
 ### Track & Ship
 - **📈 Word Count Log** — daily writing sessions and streaks
+- **🔁 Revision & Editing Log** — track every editing pass
+- **📊 Comp Titles & Market** — comparable books for your pitch
+- **📇 Contacts & Network** — agents, editors, beta readers, designers
 - **📮 Submission Tracker** — queries, agents, contests, publishers
 - **✅ Publishing Checklist** — from final draft to launch day
 
